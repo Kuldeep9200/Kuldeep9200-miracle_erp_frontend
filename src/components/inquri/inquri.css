@@ -1,0 +1,35 @@
+.inqurifrom {
+  width: 80%;
+  margin: auto;
+  margin-left: 16%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.buttonsinquri{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.detailsfrom{
+  color: white;
+    border-radius: 5px;
+    padding: 3px;
+    background: brown;
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .inqurifrom {
+    width: 100%;
+    margin-top: 26% !important;
+    margin: auto;
+    margin-left: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .buttonsinquri{
+    width: 36%;
+  }
+  .invoicebutton{
+    width: 100% !important;
+  }
+  }

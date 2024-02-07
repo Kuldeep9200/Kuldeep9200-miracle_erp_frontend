@@ -1,0 +1,109 @@
+.erpbody {
+  display: flex !important;
+  justify-content: space-around;
+}
+.dasboardbutton {
+  width: 10%;
+  background-color: blue;
+  border: none;
+  color: white;
+}
+.maincontainer-forunder{
+  width: 80%;
+  margin-left: 18%;
+  margin-top: 10%;
+}
+.erpdasboardcard {
+  display: flex !important;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.datetime {
+  width: 25%;
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flexitems {
+  width: 30%;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+.atulayn {
+  margin-bottom: 18% !important;
+}
+.erpcard1 {
+  background-color: brown;
+}
+.erpcard2 {
+  background-color: orangered;
+}
+.erpcard3 {
+  background-color: rgb(120, 120, 238);
+}
+.erpcard4 {
+  background-color: green;
+}
+.erpdasboardicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gainsboro;
+}
+.dasbordicon {
+  font-size: 3rem !important;
+  color: #cdd6d6;
+}
+.repcardbody80 {
+  padding: 10px !important;
+}
+.erpcardbodyicon {
+  display: flex;
+
+  justify-content: space-around;
+  border-bottom: 1px solid blanchedalmond;
+}
+.erph3 {
+  cursor: pointer;
+  width: 47px;
+  height: 46px;
+  padding-top: 9px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  color: orangered;
+  border-radius: 83px;
+}
+.rowmt33 {
+}
+.mycarderptext{
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .dasboardbutton {
+    width: 42%;
+  }
+  .datetime {
+    width: 88%;
+    margin-left: 4px;
+  }
+  
+  .determinedutton {
+    width: 100%;
+    text-align: center;
+  }
+  .rowmt33 {
+    padding-left: 16px;
+  }
+  
+  .erpcard1 {
+    flex-direction: row !important;
+    display: flex !important;
+  }
+}

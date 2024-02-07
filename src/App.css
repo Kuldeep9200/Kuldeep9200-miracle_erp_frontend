@@ -1,0 +1,21 @@
+.maincontainer {
+  width: 84%;
+  margin-left: 230px;
+  margin-top: 115px;
+}
+.miracle-acedmy{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.miracle-recepti{
+  width: 48%;
+  
+}
+@media (max-width: 767px) {
+  .maincontainer{
+    width: 98% !important;
+    margin-left: 5px;
+   
+  }
+}
